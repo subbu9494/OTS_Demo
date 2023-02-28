@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\HCL\HCLOneTest\jdk" version="1.8.0_292">
+<bootpath>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\bin\default\jclSC180\vm.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\se-service.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\jce.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\HCL\HCLOneTest\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
