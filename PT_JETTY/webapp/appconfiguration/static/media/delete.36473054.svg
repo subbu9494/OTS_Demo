@@ -1,0 +1,39 @@
+<svg id="delete_icon" data-name="delete icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="16" viewBox="0 0 12 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_528" data-name="Path 528" d="M11-12V-1a1,1,0,0,1-1,1H2A1,1,0,0,1,1-1V-12H0v-1H12v1ZM2-12V-1h8V-12Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_527" data-name="Path 527" d="M-949,475H75V-286H-949Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_531" data-name="Path 531" d="M4-10H5v7H4Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_534" data-name="Path 534" d="M7-10H8v7H7Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Path_537" data-name="Path 537" d="M3-15v-1H9v1Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_417" data-name="Group 417" transform="translate(0 16)" clip-path="url(#clip-path)">
+    <g id="Group_416" data-name="Group 416" clip-path="url(#clip-path-2)">
+      <path id="Path_526" data-name="Path 526" d="M-5-18H17V5H-5Z" fill="#0066b3"/>
+    </g>
+  </g>
+  <g id="Group_419" data-name="Group 419" transform="translate(0 16)" clip-path="url(#clip-path-3)">
+    <g id="Group_418" data-name="Group 418" clip-path="url(#clip-path-2)">
+      <path id="Path_529" data-name="Path 529" d="M-1-15H10V2H-1Z" fill="#0066b3"/>
+    </g>
+  </g>
+  <g id="Group_421" data-name="Group 421" transform="translate(0 16)" clip-path="url(#clip-path-5)">
+    <g id="Group_420" data-name="Group 420" clip-path="url(#clip-path-2)">
+      <path id="Path_532" data-name="Path 532" d="M2-15H13V2H2Z" fill="#0066b3"/>
+    </g>
+  </g>
+  <g id="Group_423" data-name="Group 423" transform="translate(0 16)" clip-path="url(#clip-path-7)">
+    <g id="Group_422" data-name="Group 422" clip-path="url(#clip-path-2)">
+      <path id="Path_535" data-name="Path 535" d="M-2-21H14v11H-2Z" fill="#0066b3"/>
+    </g>
+  </g>
+</svg>

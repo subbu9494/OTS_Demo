@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.ibm.rational.test.lt.execution.econsole.filter.ConsoleFilterDefinition">
+	</section>
+	<section name="com.ibm.rational.test.lt.execution.econsole.ConsoleSettingsDefinition">
+	</section>
+	<section name="com.ibm.rational.test.lt.execution.econsole.UIPersistenceDefinition">
+	</section>
+</section>

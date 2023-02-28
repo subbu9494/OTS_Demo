@@ -1,0 +1,17 @@
+<svg id="Failure" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_445" data-name="Path 445" d="M7-10.237,5.144-12.094,3.906-10.856,5.763-9,3.906-7.144,5.144-5.906,7-7.763,8.856-5.906l1.237-1.237L8.237-9l1.856-1.856L8.856-12.094ZM7-2A7,7,0,0,1,0-9a7,7,0,0,1,7-7,7,7,0,0,1,7,7A7,7,0,0,1,7-2Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_444" data-name="Path 444" d="M-433,130H463V-542H-433Z" transform="translate(433 542)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_362" data-name="Group 362" transform="translate(-1 15)">
+    <g id="Group_361" data-name="Group 361" transform="translate(1 1)" clip-path="url(#clip-path)">
+      <g id="Group_360" data-name="Group 360" transform="translate(-378.875 -476.25)" clip-path="url(#clip-path-2)">
+        <path id="Path_443" data-name="Path 443" d="M-5-21H17.75V1.75H-5Z" transform="translate(379.5 476.875)" fill="#D0021B"/>
+      </g>
+    </g>
+  </g>
+</svg>

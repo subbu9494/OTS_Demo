@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_mbnjELcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_mbnjEbcmEe2EVp6zuRQ3Fw" bindingContexts="_mbnjF7cmEe2EVp6zuRQ3Fw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.testeditor&quot; name=&quot;Demo.testsuite&quot; tooltip=&quot;HCL_OTS_Demo/Demo.testsuite&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HCL_OTS_Demo/Demo.testsuite&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.LogViewer&quot; name=&quot;Demo_1677562122357.executiondlr&quot; tooltip=&quot;HCL_OTS_Demo/Demo_1677562122357.executiondlr&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HCL_OTS_Demo/Demo_1677562122357.executiondlr&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.server.execution.ui.internal.session.ExecutionReportLauncher&quot; name=&quot;Demo_1677562113734.stats&quot; tooltip=&quot;HCL_OTS_Demo/Demo_1677562113734.stats&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HCL_OTS_Demo/Demo_1677562113734.stats&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.rational.test.lt.testeditor&quot; name=&quot;Demo.testsuite&quot; tooltip=&quot;HCL_OTS_Demo/Demo.testsuite&quot;>&#xD;&#xA;&lt;persistable path=&quot;/HCL_OTS_Demo/Demo.testsuite&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_mbnjEbcmEe2EVp6zuRQ3Fw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_pA7_gLcmEe2EVp6zuRQ3Fw" x="52" y="52" width="1024" height="768">
@@ -13,7 +13,7 @@
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_pA7_gLcmEe2EVp6zuRQ3Fw" selectedElement="_pA7_gbcmEe2EVp6zuRQ3Fw" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_pA7_gbcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_r37awLcmEe2EVp6zuRQ3Fw">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_pA7_gbcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_pBTL4LcmEe2EVp6zuRQ3Fw">
         <children xsi:type="advanced:Perspective" xmi:id="_pBIMwLcmEe2EVp6zuRQ3Fw" elementId="com.rational.test.ft.wswplugin.TestPerspective" label="Functional Test">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
           <tags>persp.actionSet:com.ibm.rational.test.lt.testeditor.datacorrelation</tags>
@@ -186,9 +186,10 @@
           <tags>persp.viewSC:com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView</tags>
           <tags>persp.perspSC:com.ibm.magnolia.ui.workItemPerspective</tags>
           <tags>persp.showIn:com.ibm.rational.test.lt.navigator</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_pBTL4bcmEe2EVp6zuRQ3Fw" selectedElement="_pBTL6LcmEe2EVp6zuRQ3Fw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_pBTL4bcmEe2EVp6zuRQ3Fw" selectedElement="_pBTL4rcmEe2EVp6zuRQ3Fw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_pBTL4rcmEe2EVp6zuRQ3Fw" containerData="2500" selectedElement="_pBTL47cmEe2EVp6zuRQ3Fw">
               <children xsi:type="basic:PartStack" xmi:id="_pBTL47cmEe2EVp6zuRQ3Fw" elementId="left" containerData="5500" selectedElement="_pBTL5LcmEe2EVp6zuRQ3Fw">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_pBTL5LcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.navigator" ref="_pBLQELcmEe2EVp6zuRQ3Fw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Test</tags>
@@ -207,7 +208,7 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_pBTL6LcmEe2EVp6zuRQ3Fw" containerData="7500" selectedElement="_pBTL6bcmEe2EVp6zuRQ3Fw">
               <children xsi:type="advanced:Placeholder" xmi:id="_pBTL6bcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_nb4tQLcmEe2EVp6zuRQ3Fw"/>
-              <children xsi:type="basic:PartStack" xmi:id="_pBTL6rcmEe2EVp6zuRQ3Fw" elementId="bottom" containerData="2500" selectedElement="_2uMZsbcmEe2EVp6zuRQ3Fw">
+              <children xsi:type="basic:PartStack" xmi:id="_pBTL6rcmEe2EVp6zuRQ3Fw" elementId="bottom" containerData="2500" selectedElement="_pBTL7rcmEe2EVp6zuRQ3Fw">
                 <tags>Test</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_pBTL67cmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.views.ProblemView" ref="_pAy1kbcmEe2EVp6zuRQ3Fw" closeable="true">
                   <tags>View</tags>
@@ -257,7 +258,7 @@
           <tags>persp.viewSC:org.eclipse.egit.ui.StagingView</tags>
           <tags>persp.viewSC:org.eclipse.egit.ui.ReflogView</tags>
           <tags>persp.actionSet:org.eclipse.egit.ui.navigation</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_r38B0LcmEe2EVp6zuRQ3Fw" selectedElement="_r38B1rcmEe2EVp6zuRQ3Fw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_r38B0LcmEe2EVp6zuRQ3Fw" selectedElement="_r38B0bcmEe2EVp6zuRQ3Fw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_r38B0bcmEe2EVp6zuRQ3Fw" containerData="5000" selectedElement="_r38B0rcmEe2EVp6zuRQ3Fw">
               <children xsi:type="basic:PartStack" xmi:id="_r38B0rcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.egit.ui.RepositoriesViewMStack" containerData="7000" selectedElement="_r38B07cmEe2EVp6zuRQ3Fw">
                 <children xsi:type="advanced:Placeholder" xmi:id="_r38B07cmEe2EVp6zuRQ3Fw" elementId="org.eclipse.egit.ui.RepositoriesView" ref="_r3of0LcmEe2EVp6zuRQ3Fw" closeable="true">
@@ -275,7 +276,7 @@
             <children xsi:type="basic:PartSashContainer" xmi:id="_r38B1rcmEe2EVp6zuRQ3Fw" containerData="5000" selectedElement="_r38B2LcmEe2EVp6zuRQ3Fw">
               <children xsi:type="advanced:Placeholder" xmi:id="_r38B17cmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.editorss" containerData="5000" ref="_nb4tQLcmEe2EVp6zuRQ3Fw"/>
               <children xsi:type="basic:PartStack" xmi:id="_r38B2LcmEe2EVp6zuRQ3Fw" elementId="bottom" containerData="5000" selectedElement="_r38B3LcmEe2EVp6zuRQ3Fw">
-                <tags>active</tags>
+                <tags>Test</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_r38B2bcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.views.PropertySheet" ref="_pAxncbcmEe2EVp6zuRQ3Fw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -295,6 +296,10 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_r38B3bcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.egit.ui.ReflogView" ref="_r3wboLcmEe2EVp6zuRQ3Fw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Git</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_AdIuwLcoEe2-AIdshFyBrw" elementId="com.ibm.rational.test.lt.ui.moeb.MobileData" ref="_2uMZsLcmEe2EVp6zuRQ3Fw" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Test</tags>
                 </children>
               </children>
             </children>
@@ -317,13 +322,19 @@
       </children>
     </children>
     <sharedElements xsi:type="advanced:Area" xmi:id="_nb4tQLcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.editorss" selectedElement="_nb4tQbcmEe2EVp6zuRQ3Fw">
-      <children xsi:type="basic:PartStack" xmi:id="_nb4tQbcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_2Uv-8LcmEe2EVp6zuRQ3Fw">
+      <children xsi:type="basic:PartStack" xmi:id="_nb4tQbcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_9oBtYLcoEe2-AIdshFyBrw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_2Uv-8LcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Demo" iconURI="platform:/plugin/com.ibm.rational.test.lt.testeditor/icons/obj16/performancetest.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.rational.test.lt.testeditor&quot; name=&quot;Demo.testsuite&quot; partName=&quot;Demo&quot; title=&quot;Demo&quot; tooltip=&quot;HCL_OTS_Demo/Demo.testsuite&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/HCL_OTS_Demo/Demo.testsuite&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.ibm.rational.test.lt.testeditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_9oBtYLcoEe2-AIdshFyBrw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Demo" iconURI="platform:/plugin/com.ibm.rational.test.lt.logviewer/icons/full/obj16/execution_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.ibm.rational.test.lt.LogViewer&quot; name=&quot;Demo_1677562122357.executiondlr&quot; partName=&quot;Demo&quot; title=&quot;Demo&quot; tooltip=&quot;HCL_OTS_Demo/Demo_1677562122357.executiondlr&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/HCL_OTS_Demo/Demo_1677562122357.executiondlr&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.ibm.rational.test.lt.LogViewer</tags>
           <tags>removeOnHide</tags>
         </children>
       </children>
@@ -462,8 +473,11 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_pBLQELcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.navigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Test Navigator" iconURI="platform:/plugin/com.ibm.rational.test.lt.navigator/icons/cview16/testnavigator_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.lt.navigator.internal.views.TestNavigator"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.lt.navigator"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; includeMissingResource=&quot;false&quot; showEmptyOperations=&quot;false&quot; showFileExtensions=&quot;false&quot; sorterState=&quot;1&quot; useLogicalView=&quot;logical&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/HCL_OTS_Demo&quot; type=&quot;4&quot;/>&#xD;&#xA;&lt;expanded factory=&quot;logicalFolder&quot; kind=&quot;c&quot; lft=&quot;com.ibm.rational.test.lt.test&quot; path=&quot;/HCL_OTS_Demo&quot;/>&#xD;&#xA;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/HCL_OTS_Demo&quot; type=&quot;4&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Test</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_pbDvsLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.navigator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -485,8 +499,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_pBNFQbcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.recorder.ui.views.RecorderControlView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Recording Control" iconURI="platform:/plugin/com.ibm.rational.test.lt.recorder.ui/icons/view16/recorder_control_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.lt.recorder.ui.internal.views.RecorderControlView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.lt.recorder.ui"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Test</tags>
+      <menus xmi:id="_JsZToLcoEe2-AIdshFyBrw" elementId="com.ibm.rational.test.lt.recorder.ui.views.RecorderControlView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_JsZTobcoEe2-AIdshFyBrw" elementId="com.ibm.rational.test.lt.recorder.ui.views.RecorderControlView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_pBRWsLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.rtw.keyword" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Keyword View" iconURI="platform:/plugin/com.ibm.rational.test.rtw.keyword/com/ibm/rational/test/rtw/keyword/graphics/libraryview.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.rtw.keyword.KeywordViewPart"/>
@@ -524,7 +544,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Git</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_ISiaMLcnEe2EVp6zuRQ3Fw" elementId="org.eclipse.egit.ui.StagingView">
         <tags>ViewMenu</tags>
@@ -541,13 +560,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_2uMZsLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.MobileData" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="SmartShot View" iconURI="platform:/plugin/com.ibm.rational.test.lt.ui.moeb/icons/view/mobile_view.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ibm.rational.test.lt.ui.moeb.views.MobileDataView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ibm.rational.test.lt.ui.moeb"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Test</tags>
       <menus xmi:id="_2ueGgLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.MobileData">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_2ueGgbcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.MobileData"/>
+      <toolbar xmi:id="_2ueGgbcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.MobileData" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_mbnjErcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_pOf6YLcmEe2EVp6zuRQ3Fw" elementId="group.file" toBeRendered="false">
@@ -556,7 +576,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pOhvkLcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pOvK8LcmEe2EVp6zuRQ3Fw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_mdGw4LcmEe2EVp6zuRQ3Fw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_67r4YLcnEe2-AIdshFyBrw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mdGw4LcmEe2EVp6zuRQ3Fw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pOiWoLcmEe2EVp6zuRQ3Fw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -569,16 +589,16 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_pOi9srcmEe2EVp6zuRQ3Fw" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_pXHD0LcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.execution.ui.runActions" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_pXHD0LcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.execution.ui.runActions">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_pYrxILcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.recorder.ui.recordingActionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_pYrxILcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.recorder.ui.recordingActionSet">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pXeQMLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.testeditor.datacorrelation">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_pXxLILcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.actionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_pXxLILcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.actionSet">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pYRhcLcmEe2EVp6zuRQ3Fw" elementId="com.ibm.rational.test.lt.ui.moeb.mobile.actionSet">
@@ -596,7 +616,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pOkL0LcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pO0DcLcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mdE7prcmEe2EVp6zuRQ3Fw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_67xX8LcnEe2-AIdshFyBrw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mdE7prcmEe2EVp6zuRQ3Fw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_pOky4LcmEe2EVp6zuRQ3Fw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3042,7 +3062,7 @@
   <addons xmi:id="_mbnjI7cmEe2EVp6zuRQ3Fw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_mbnjJLcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_mbx7ILcmEe2EVp6zuRQ3Fw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_6Qe_QbcnEe2-AIdshFyBrw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_mcqE4LcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_mcqE4bcmEe2EVp6zuRQ3Fw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

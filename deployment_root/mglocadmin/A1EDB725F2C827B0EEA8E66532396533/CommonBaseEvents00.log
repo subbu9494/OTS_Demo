@@ -1,0 +1,516 @@
+<CommonBaseEvent creationTime="2023-02-28T05:28:47.407Z" globalInstanceId="A1EDB728C72B1E20CA0AE53938643963" msg="RPXE0001W 1 users successfully added" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>0</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:28.271Z" globalInstanceId="A1EDB728DECB1760CA0AE53938643963" msg="HandleException {0}&#xA;org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor$ScriptFunction@e68ed259 (tried for 10 second(s) with 500 milliseconds interval)&#xA;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#xA;System info: host: &apos;MGTECHLPT157&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;&#xA;Driver info: driver.version: unknown&#xD;&#xA;&#x9;at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)&#xD;&#xA;&#x9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor.executeAction(WebDriverJavascriptExecutor.java:129)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.BaseWebDriverAction.execute(BaseWebDriverAction.java:181)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer.runScript(WebDriverPlayer.java:308)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:96)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:85)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.JSDefaultAction.execute(JSDefaultAction.java:30)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:114)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:102)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:182)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:369)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:272)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:294)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:823)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>9</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor$ScriptFunction@e68ed259 (tried for 10 second(s) with 500 milliseconds interval)&#xA;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#xA;System info: host: &apos;MGTECHLPT157&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;&#xA;Driver info: driver.version: unknown</values>
+		<values>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)</values>
+		<values>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor.executeAction(WebDriverJavascriptExecutor.java:129)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.BaseWebDriverAction.execute(BaseWebDriverAction.java:181)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer.runScript(WebDriverPlayer.java:308)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:96)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:85)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.JSDefaultAction.execute(JSDefaultAction.java:30)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:114)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:102)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:182)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:369)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:272)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)</values>
+		<values>com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:294)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:823)</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest UI" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:28.683Z" globalInstanceId="A1EDB728DF090AC0CA0AE53938643963" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;Click on Hyperlink whose Style$array$ is background-color:rgba(0, 0, 0, 0);background-repea...5, 255);visibility:visible;z-index:auto; - mgtechsoft.com&#xA;&#x9;Demo&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:823)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>10</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;</values>
+		<values>test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:823)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed</values>
+			<values>test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+			<values>java.lang.Thread.run(Thread.java:823)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:41.028Z" globalInstanceId="A1EDB728E664BD50CA0AE53938643963" msg="HandleException {0}&#xA;org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor$ScriptFunction@82b5a7f0 (tried for 10 second(s) with 500 milliseconds interval)&#xA;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#xA;System info: host: &apos;MGTECHLPT157&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;&#xA;Driver info: driver.version: unknown&#xD;&#xA;&#x9;at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)&#xD;&#xA;&#x9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor.executeAction(WebDriverJavascriptExecutor.java:129)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.actions.BaseWebDriverAction.execute(BaseWebDriverAction.java:181)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer.runScript(WebDriverPlayer.java:308)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:96)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:85)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.playback.js.actions.JSDefaultAction.execute(JSDefaultAction.java:30)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:114)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:102)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:182)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:369)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:272)&#xD;&#xA;&#x9;at com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:294)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:823)&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>11</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor$ScriptFunction@82b5a7f0 (tried for 10 second(s) with 500 milliseconds interval)&#xA;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#xA;System info: host: &apos;MGTECHLPT157&apos;, ip: &apos;192.168.5.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_292&apos;&#xA;Driver info: driver.version: unknown</values>
+		<values>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)</values>
+		<values>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.WebDriverJavascriptExecutor.executeAction(WebDriverJavascriptExecutor.java:129)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.actions.BaseWebDriverAction.execute(BaseWebDriverAction.java:181)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)</values>
+		<values>com.ibm.rational.test.rtw.webgui.selenium.WebDriverPlayer.runScript(WebDriverPlayer.java:308)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:96)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.BaseJSAction.runScriptAndParseResponse(BaseJSAction.java:85)</values>
+		<values>com.ibm.rational.test.rtw.webgui.playback.js.actions.JSDefaultAction.execute(JSDefaultAction.java:30)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeInternal(AbstractActions.java:104)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractActions.executeAction(AbstractActions.java:167)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeActionInternal(HybridPlayer.java:114)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.HybridPlayer.invokeAction(HybridPlayer.java:102)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.playback.AbstractWebPlayer.executeTestStep(AbstractWebPlayer.java:182)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestStep(PlaybackManager.java:369)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.PlaybackManager.executeTestSteps(PlaybackManager.java:272)</values>
+		<values>com.ibm.rational.test.rtw.webgui.execution.DesktopBrowserExecution.executeSteps(DesktopBrowserExecution.java:122)</values>
+		<values>com.ibm.rational.test.lt.execution.moeb.action.MoebStepBatchAction.execute(MoebStepBatchAction.java:294)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:823)</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest UI" component="com.ibm.rational.test.rtw.webgui.execution" componentIdType="Functional test Execution" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.rtw.webgui.execution" componentType="Desktop Execution"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:41.201Z" globalInstanceId="A1EDB728E67EFC10CA0AE53938643963" msg="RPXE0039W User [DefaultUserGroup][000001] experienced exception com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;&#xA;in Test Action:&#xA;&#x9;Click on Hyperlink whose Style$array$ is background-color:rgba(0, 0, 0, 0);background-repea...5, 255);visibility:visible;z-index:auto; - mgtechsoft.com&#xA;&#x9;Demo&#xA;&#x9;DefaultScenario&#xA;&#x9;[DefaultUserGroup][000001]&#xA;&#x9;DefaultUserGroup&#xA;&#x9;DefaultSchedule&#xA;&#x9;Engine&#xA;com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;&#xD;&#xA;&#x9;at test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)&#xD;&#xA;&#x9;at com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)&#xD;&#xA;&#x9;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)&#xD;&#xA;&#x9;at java.lang.Thread.run(Thread.java:823)&#xD;&#xA;Caused by: com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed&#xD;&#xA;&#x9;... 6 more&#xD;&#xA;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>12</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:stackTrace" type="stringArray">
+		<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed, &apos;Continuing&apos;</values>
+		<values>test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+		<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+		<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+		<values>java.lang.Thread.run(Thread.java:823)</values>
+		<children name="Cause" type="stringArray">
+			<values>com.ibm.rational.test.lt.kernel.services.RPTContinueEvent: Playback of UI Action failed</values>
+			<values>test.Demo_Test_A1EDB725F2C827B0EEA8E66532396533.execute(Demo_Test_A1EDB725F2C827B0EEA8E66532396533.java:72)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.executeAction(KAction.java:599)</values>
+			<values>com.ibm.rational.test.lt.kernel.action.impl.KAction.run(KAction.java:2115)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</values>
+			<values>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</values>
+			<values>java.lang.Thread.run(Thread.java:823)</values>
+		</children>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:52.154Z" msg="Unable to kill process java.lang.ProcessImpl@76fff2bf" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>13</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>56</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.os.OsProcess</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.os.OsProcess</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>destroy</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.169Z" msg="Failed to shutdown Driver Command Executor" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>14</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>56</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.concurrent.ExecutorServices</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.concurrent.ExecutorServices</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>shutdownGracefully</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.891Z" globalInstanceId="A1EDB728F071AD30CA0AE53938643963" msg="RPXE0001W 7.7.300 Engine STOP reason Unknown" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>17</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.891Z" globalInstanceId="A1EDB728F071D440CA0AE53938643963" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>18</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.891Z" globalInstanceId="A1EDB728F071FB50CA0AE53938643963" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>19</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.894Z" globalInstanceId="A1EDB728F0722260CA0AE53938643963" msg="RPXE0001W BREW actions completed = 19" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>20</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.894Z" globalInstanceId="A1EDB728F0724970CA0AE53938643963" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>21</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.894Z" globalInstanceId="A1EDB728F0727080CA0AE53938643963" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>22</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:57.996Z" globalInstanceId="A1EDB728F081B2C0CA0AE53938643963" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>23</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:59.012Z" globalInstanceId="A1EDB728F11CBA40CA0AE53938643963" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>24</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:59.012Z" globalInstanceId="A1EDB728F11CE150CA0AE53938643963" msg="RPXE0001W Stop reason Unknown:  1 users" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>25</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:29:59.012Z" globalInstanceId="A1EDB728F11CE151CA0AE53938643963" msg="RPXE0001W    [DefaultUserGroup][000001] stopped at 72545" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>26</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2023-02-28T05:30:06.249Z" globalInstanceId="A1EDB728F56D28A0CA0AE53938643963" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>27</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="HCL OneTest Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.5.1" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>

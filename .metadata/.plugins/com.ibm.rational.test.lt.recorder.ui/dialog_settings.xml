@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewRecordingWizard">
+		<item value="NONE" key="encryptionLevel"/>
+		<item value="false" key="privacyAccepted"/>
+		<list key="clients">
+			<item value="com.ibm.rational.test.lt.recorder.http.common.ui.firefox"/>
+		</list>
+	</section>
+</section>

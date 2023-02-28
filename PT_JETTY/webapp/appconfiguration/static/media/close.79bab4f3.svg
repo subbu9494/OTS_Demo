@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="12" height="12" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_141" data-name="Path 141" d="M333.584-103,338-98.584,336.416-97,332-101.416,327.584-97,326-98.584,330.416-103,326-107.416,327.584-109,332-104.584,336.416-109,338-107.416Z" transform="translate(-326 109)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_140" data-name="Path 140" d="M-37,542H920.6V-376H-37Z" transform="translate(37 376)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Close">
+      <rect width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="Close" clip-path="url(#clip-Close)" style="" transform="matrix(0.759959, 0, 0, 0.757916, 1.667007, 2.239021)">
+    <g id="X" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <g id="Group_95" data-name="Group 95" clip-path="url(#clip-path-2)">
+        <g id="Group_94" data-name="Group 94" transform="translate(-435.6 -320.4)" clip-path="url(#clip-path-3)">
+          <path id="Path_139" data-name="Path 139" d="M321-114h24v24H321Z" transform="translate(108.6 428.4)" fill="#0066b3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

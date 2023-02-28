@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/results/ftwebreport/static/css/main.b4c6f005.chunk.css",
+    "main.js": "/results/ftwebreport/static/js/main.553ef247.chunk.js",
+    "main.js.map": "/results/ftwebreport/static/js/main.553ef247.chunk.js.map",
+    "runtime-main.js": "/results/ftwebreport/static/js/runtime-main.e1c04da4.js",
+    "runtime-main.js.map": "/results/ftwebreport/static/js/runtime-main.e1c04da4.js.map",
+    "static/css/2.8256caa7.chunk.css": "/results/ftwebreport/static/css/2.8256caa7.chunk.css",
+    "static/js/2.2559c3bf.chunk.js": "/results/ftwebreport/static/js/2.2559c3bf.chunk.js",
+    "static/js/2.2559c3bf.chunk.js.map": "/results/ftwebreport/static/js/2.2559c3bf.chunk.js.map",
+    "index.html": "/results/ftwebreport/index.html",
+    "precache-manifest.e51f1378f94f877e13c8cad8f92c9039.js": "/results/ftwebreport/precache-manifest.e51f1378f94f877e13c8cad8f92c9039.js",
+    "service-worker.js": "/results/ftwebreport/service-worker.js",
+    "static/css/2.8256caa7.chunk.css.map": "/results/ftwebreport/static/css/2.8256caa7.chunk.css.map",
+    "static/css/main.b4c6f005.chunk.css.map": "/results/ftwebreport/static/css/main.b4c6f005.chunk.css.map",
+    "static/js/2.2559c3bf.chunk.js.LICENSE.txt": "/results/ftwebreport/static/js/2.2559c3bf.chunk.js.LICENSE.txt",
+    "static/media/chrome.png": "/results/ftwebreport/static/media/chrome.e5039158.png",
+    "static/media/primereact.min.css": "/results/ftwebreport/static/media/line.567f5738.gif",
+    "static/media/edge.png": "/results/ftwebreport/static/media/edge.07cc7a2f.png",
+    "static/media/firefox.png": "/results/ftwebreport/static/media/firefox.c2f0136e.png",
+    "static/media/ie.png": "/results/ftwebreport/static/media/ie.659ae980.png",
+    "static/media/info.png": "/results/ftwebreport/static/media/info.68a3c92f.png",
+    "static/media/linux.jpg": "/results/ftwebreport/static/media/linux.cad0280a.jpg",
+    "static/media/mac_os_X.png": "/results/ftwebreport/static/media/mac_os_X.29f4e770.png",
+    "static/media/theme.css": "/results/ftwebreport/static/media/open-sans-v15-latin-regular.cffb686d.woff2",
+    "static/media/opera.png": "/results/ftwebreport/static/media/opera.e1684649.png",
+    "static/media/primeicons.css": "/results/ftwebreport/static/media/primeicons.b0f5d02f.eot",
+    "static/media/redhat.jpg": "/results/ftwebreport/static/media/redhat.fb4d33b8.jpg",
+    "static/media/index.css": "/results/ftwebreport/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/safari.png": "/results/ftwebreport/static/media/safari.18f40448.png",
+    "static/media/ubuntu.png": "/results/ftwebreport/static/media/ubuntu.e59fac9d.png",
+    "static/media/windows10.jpg": "/results/ftwebreport/static/media/windows10.0c492187.jpg",
+    "static/media/windows7.jpg": "/results/ftwebreport/static/media/windows7.8007538e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1c04da4.js",
+    "static/css/2.8256caa7.chunk.css",
+    "static/js/2.2559c3bf.chunk.js",
+    "static/css/main.b4c6f005.chunk.css",
+    "static/js/main.553ef247.chunk.js"
+  ]
+}

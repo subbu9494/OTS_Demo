@@ -1,0 +1,15 @@
+<svg id="Success" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_431" data-name="Path 431" d="M7-4a7,7,0,0,1-7-7,7,7,0,0,1,7-7,7,7,0,0,1,7,7A7,7,0,0,1,7-4Zm2.881-9.916L5.906-9.941,4.119-11.728,2.881-10.491,5.906-7.466l5.212-5.212Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_430" data-name="Path 430" d="M-433,88.333H363.444V-509H-433Z" transform="translate(433 509)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_350" data-name="Group 350" transform="translate(0 18)" clip-path="url(#clip-path)">
+    <g id="Group_349" data-name="Group 349" transform="translate(-336.778 -399.889)" clip-path="url(#clip-path-2)">
+      <path id="Path_429" data-name="Path 429" d="M-5-23H16.778V-1.222H-5Z" transform="translate(337.889 401)" fill="#5aa700"/>
+    </g>
+  </g>
+</svg>

@@ -4,10 +4,19 @@
 		<item value="0" key="size"/>
 	</section>
 	<section name="last.test.options.tab">
+		<section name="editor-A1EDB728535A8710D007B03437613735">
+		</section>
 		<section name="editor-A1EDB725F2C827B0EEA8E66532396533">
 		</section>
 	</section>
 	<section name="EDITOR_STATE">
+		<section name="editor-A1EDB728535A8710D007B03437613735">
+			<item value="L/HCL_OTS_Demo/MgenWebsite.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EDB728538C1E64D007B03437613735"/>
+			</list>
+		</section>
 		<section name="editor-A1EDB725F2C827B0EEA8E66532396533">
 			<item value="L/HCL_OTS_Demo/Demo.testsuite" key="file"/>
 			<item value="0" key="lastEditorViewMode"/>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWebGuiRecorderClientWizard">
+		<item value="" key="socksProxyHost"/>
+		<item value="false" key="serverCertificateEnabled"/>
+		<item value="false" key="sslv3"/>
+		<item value="" key="httpProxyHost"/>
+		<item value="1080" key="manualProxyPort"/>
+		<item value="true" key="socksProxyVersion4"/>
+		<item value="" key="SMObfuscationKey"/>
+		<item value="false" key="addRootCA"/>
+		<item value="BROWSER_SETTINGS" key="connectionMode"/>
+		<item value="" key="globalClientCertificatePass"/>
+		<item value="" key="httpsProxyHost"/>
+		<item value="" key="smartcardPinCode"/>
+		<item value="" key="pacUrl"/>
+		<item value="default" key="firefoxSelectedAltProfileName"/>
+		<item value="false" key="tlsv10"/>
+		<item value="false" key="differentHttpsSettings"/>
+		<item value="" key="nonProxyHostList"/>
+		<item value="false" key="tlsv11"/>
+		<item value="" key="smartcardAlias"/>
+		<item value="false" key="useManualProxyPort"/>
+		<item value="false" key="overrideBrowserSslEncryption"/>
+		<item value="true" key="tlsv12"/>
+		<item value="AUTO" key="proxyType"/>
+		<item value="8080" key="socksProxyPort"/>
+		<item value="" key="obfuscationKey"/>
+		<item value="8080" key="httpProxyPort"/>
+		<item value="false" key="revertNonProxyHostListLogic"/>
+		<item value="" key="globalClientCertificatePath"/>
+		<item value="false" key="clientCertificateEnabled"/>
+		<item value="8080" key="httpsProxyPort"/>
+		<item value="SIMPLE" key="clientCertificateType"/>
+		<item value="false" key="useFirefoxAltProfile"/>
+		<section name="clientCertificateEnabledSection">
+			<item value="" key="obfuscationKey"/>
+			<list key="certificateSSLLines">
+			</list>
+		</section>
+		<section name="serverCertificateEnabledSection">
+			<item value="" key="obfuscationKey"/>
+			<list key="certificateSSLLines">
+			</list>
+		</section>
+	</section>
+</section>

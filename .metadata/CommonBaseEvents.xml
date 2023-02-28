@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="./CommonBaseEvents.xsl"?>
 <CommonBaseEvents>
-	<CommonBaseEvent creationTime="2023-02-28T05:13:26.059Z" msg="Requested 1 of HOT_Studio_FltgUsr" severity="50" version="1.0.1">
+	<CommonBaseEvent creationTime="2023-02-28T05:41:33.882Z" msg="Requested 1 of HOT_Studio_FltgUsr" severity="50" version="1.0.1">
 		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-			<values>0</values>
+			<values>5</values>
 		</extendedDataElements>
 		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-			<values>1</values>
+			<values>55</values>
 		</extendedDataElements>
 		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 			<children name="CommonBaseEventLogRecord:name" type="string">
@@ -34,12 +34,12 @@
 			<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
 		</situation>
 	</CommonBaseEvent>
-	<CommonBaseEvent creationTime="2023-02-28T05:13:30.704Z" msg="License status: OK" severity="50" version="1.0.1">
+	<CommonBaseEvent creationTime="2023-02-28T05:41:38.518Z" msg="License status: OK" severity="50" version="1.0.1">
 		<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
-			<values>1</values>
+			<values>6</values>
 		</extendedDataElements>
 		<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
-			<values>1</values>
+			<values>55</values>
 		</extendedDataElements>
 		<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
 			<children name="CommonBaseEventLogRecord:name" type="string">

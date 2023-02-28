@@ -1,0 +1,25 @@
+<svg id="update_application" data-name="update application" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="14" viewBox="0 0 16 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_543" data-name="Path 543" d="M15-11v-2H1v2Zm0,1H1v9H15ZM.75-14h14.5a.871.871,0,0,1,.75.955V-.955A.871.871,0,0,1,15.25,0H.75A.871.871,0,0,1,0-.955V-13.045A.871.871,0,0,1,.75-14Z" transform="translate(0 14)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_542" data-name="Path 542" d="M-916,410H108V-351H-916Z" transform="translate(916 351)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_546" data-name="Path 546" d="M8-7.229,6.046-5.44l-.726-.6L8.5-9l3.183,2.959-.726.6L9-7.23V-2H8Z" transform="translate(-5.32 9)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_431" data-name="Group 431" transform="translate(0 14)">
+    <g id="Group_428" data-name="Group 428" transform="translate(0 -14)" clip-path="url(#clip-path)">
+      <g id="Group_427" data-name="Group 427" transform="translate(-916 -337)" clip-path="url(#clip-path-2)">
+        <path id="Path_541" data-name="Path 541" d="M-5-19H21V5H-5Z" transform="translate(916 351)" fill="#0066b3"/>
+      </g>
+    </g>
+    <g id="Group_430" data-name="Group 430" transform="translate(5.32 -9)" clip-path="url(#clip-path-3)">
+      <g id="Group_429" data-name="Group 429" transform="translate(-921.32 -342)" clip-path="url(#clip-path-2)">
+        <path id="Path_544" data-name="Path 544" d="M16.681,3H.32V-14H16.681Z" transform="translate(916 351)" fill="#0066b3"/>
+      </g>
+    </g>
+  </g>
+</svg>

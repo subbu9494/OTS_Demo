@@ -1,0 +1,23 @@
+<svg id="Edit_icon" data-name="Edit icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_521" data-name="Path 521" d="M7.926-13.612,1-7.272v2.28h2.3l6.926-6.316Zm.738-.676,2.308,2.3,1.452-1.324-2.309-2.309ZM0-7.713l9.437-8.641a1,1,0,0,1,1.382.03l2.309,2.309a1,1,0,0,1,0,1.414l-.033.032-9.4,8.576H0Z" transform="translate(-0.002 16.616)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_520" data-name="Path 520" d="M-919,474H105V-287H-919Z" transform="translate(919 287)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_524" data-name="Path 524" d="M0-.979v-1H16v1Z" transform="translate(0 1.979)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_404" data-name="Group 404" transform="translate(0.002)" clip-path="url(#clip-path)">
+    <g id="Group_403" data-name="Group 403" transform="translate(-919.002 -270.384)" clip-path="url(#clip-path-2)">
+      <path id="Path_519" data-name="Path 519" d="M-5-21.616H18.423V1.007H-5Z" transform="translate(919 287)" fill="#0066b3"/>
+    </g>
+  </g>
+  <g id="Group_406" data-name="Group 406" transform="translate(0 15)" clip-path="url(#clip-path-3)">
+    <g id="Group_405" data-name="Group 405" transform="translate(-919 -285.021)" clip-path="url(#clip-path-2)">
+      <path id="Path_522" data-name="Path 522" d="M-5-6.979H21v11H-5Z" transform="translate(919 287)" fill="#0066b3"/>
+    </g>
+  </g>
+</svg>

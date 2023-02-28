@@ -73,3 +73,111 @@ java.io.IOException: The process cannot access the file because another process 
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:239)
 	at org.eclipse.egit.ui.internal.staging.StagingView$53.run(StagingView.java:3285)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+!SESSION 2023-02-28 10:52:28.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=1.8.0_292-b10
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20210421_1045 (JIT enabled, AOT enabled)
+OpenJ9   - b4cc246d9
+OMR      - 162e6f729
+JCL      - 2a5e268814 based on jdk8u292-b10
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-28 10:53:20.810
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mglocadmin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2023-02-28 10:55:34.450
+!MESSAGE RPTTI0001 Test generation started at Tue Feb 28 10:55:34 IST 2023 -- input:  MgenWebsite.recsession
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2023-02-28 10:55:37.001
+!MESSAGE RPTTI0002 Test generation completed at Tue Feb 28 10:55:36 IST 2023 -- output:  MgenWebsite.testsuite
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2023-02-28 11:00:05.160
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2023-02-28 11:00:05.161
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2023-02-28 11:00:06.787
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\mglocadmin\AppData\Local\Temp\rpt.Demo.8252319633811273523
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-02-28 11:05:14.867
+!MESSAGE Cannot lock C:\Users\mglocadmin\git\OTS_Demo\.git\index. Ensure that no other process has an open file handle on the lock file C:\Users\mglocadmin\git\OTS_Demo\.git\index.lock, then you may delete the lock file and retry.
+!STACK 0
+org.eclipse.jgit.errors.LockFailedException: Cannot lock C:\Users\mglocadmin\git\OTS_Demo\.git\index. Ensure that no other process has an open file handle on the lock file C:\Users\mglocadmin\git\OTS_Demo\.git\index.lock, then you may delete the lock file and retry.
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:251)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:328)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:294)
+	at org.eclipse.jgit.lib.Repository.lockDirCache(Repository.java:1288)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:154)
+	at org.eclipse.egit.ui.internal.staging.StagingView$53.run(StagingView.java:3285)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-02-28 11:05:52.118
+!MESSAGE The process cannot access the file because another process has locked a portion of the file.
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file.
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:141)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:122)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:239)
+	at org.eclipse.egit.ui.internal.staging.StagingView$53.run(StagingView.java:3285)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+!SESSION 2023-02-28 11:10:25.026 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=1.8.0_292-b10
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20210421_1045 (JIT enabled, AOT enabled)
+OpenJ9   - b4cc246d9
+OMR      - 162e6f729
+JCL      - 2a5e268814 based on jdk8u292-b10
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-02-28 11:11:28.667
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mglocadmin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2023-02-28 11:13:30.485
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2023-02-28 11:13:30.487
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2023-02-28 11:13:32.108
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\mglocadmin\AppData\Local\Temp\rpt.MgenWebsite.4134431536868910372
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-02-28 11:13:40.952
+!MESSAGE Cannot lock C:\Users\mglocadmin\git\OTS_Demo\.git\index. Ensure that no other process has an open file handle on the lock file C:\Users\mglocadmin\git\OTS_Demo\.git\index.lock, then you may delete the lock file and retry.
+!STACK 0
+org.eclipse.jgit.errors.LockFailedException: Cannot lock C:\Users\mglocadmin\git\OTS_Demo\.git\index. Ensure that no other process has an open file handle on the lock file C:\Users\mglocadmin\git\OTS_Demo\.git\index.lock, then you may delete the lock file and retry.
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:251)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:328)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:294)
+	at org.eclipse.jgit.lib.Repository.lockDirCache(Repository.java:1288)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:154)
+	at org.eclipse.egit.ui.internal.staging.StagingView$53.run(StagingView.java:3285)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-02-28 11:14:49.631
+!MESSAGE The process cannot access the file because another process has locked a portion of the file.
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file.
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at org.eclipse.jgit.util.IO.readFully(IO.java:303)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:141)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:122)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:239)
+	at org.eclipse.egit.ui.internal.staging.StagingView$53.run(StagingView.java:3285)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
